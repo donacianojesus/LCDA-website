@@ -5,13 +5,13 @@
 [![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.3-teal?logo=tailwind-css)](https://tailwindcss.com/)
 [![Vercel](https://img.shields.io/badge/Vercel-Deployment-black?logo=vercel)](https://vercel.com/)
 
-**⚠️ Work in Progress / Planned Project**
+**Work in Progress / Planned Project**
 
 This repository contains the **planned website for La Casa del Alfarero (LCDA)**, a church in Scranton, PA, part of **IPUL (Iglesia Pentecostal Unida Latinoamérica)**. The website is being designed to provide information about the church’s ministries, events, announcements, and online giving, with support for **English and Spanish**.
 
 ---
 
-## 🛠 Tech Stack (Planned)
+## Tech Stack (Planned)
 
 - **Frontend:** Next.js + TypeScript  
 - **Styling:** Tailwind CSS  
@@ -23,7 +23,7 @@ This repository contains the **planned website for La Casa del Alfarero (LCDA)**
 
 ---
 
-## 📑 Planned Features
+## Planned Features
 
 - Homepage with welcome message and service times  
 - About page (mission, history, leadership)  
@@ -37,7 +37,7 @@ This repository contains the **planned website for La Casa del Alfarero (LCDA)**
 
 ---
 
-## 📂 Project Structure (Planned)
+## Project Structure (Planned)
 
 ```
 church-website/
@@ -57,7 +57,7 @@ church-website/
 
 ---
 
-## 🚀 Developer Roadmap
+## Developer Roadmap
 
 **Phase 1 – MVP:**  
 
@@ -81,7 +81,7 @@ church-website/
 
 ---
 
-## ⚠️ Notes
+## Notes
 
 - This project is **planned and a work in progress**.  
 - Features, structure, and design are subject to change as development progresses.  
