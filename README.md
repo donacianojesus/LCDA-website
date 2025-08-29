@@ -5,13 +5,13 @@
 [![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.3-teal?logo=tailwind-css)](https://tailwindcss.com/)
 [![Vercel](https://img.shields.io/badge/Vercel-Deployment-black?logo=vercel)](https://vercel.com/)
 
-**✅ Project Status: MVP Complete & Running**
+**Project Status: MVP Complete & Running**
 
 This repository contains the **website for La Casa del Alfarero (LCDA)**, a church in Scranton, PA, part of **IPUL (Iglesia Pentecostal Unida Latinoamérica)**. The website provides information about the church's ministries, events, announcements, and online giving, with support for **English and Spanish**.
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js 18+ 
@@ -34,7 +34,7 @@ The website will be available at [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## 🛠️ Tech Stack (Implemented)
+## Tech Stack (Implemented)
 
 - **Frontend:** Next.js 13+ with App Router
 - **Styling:** Tailwind CSS  
@@ -45,21 +45,21 @@ The website will be available at [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## ✨ Features (Implemented)
+## Features (Implemented)
 
-- ✅ **Homepage** with welcome message and service times
-- ✅ **About page** (mission, history, leadership, values)
-- ✅ **Ministries page** (Youth, Women's, Men's, Children, Music, Outreach)
-- ✅ **Events & Announcements page** with upcoming events
-- ✅ **Contact page** with contact form and information
-- ✅ **Online Giving page** with donation form
-- ✅ **Responsive navigation** with language toggle (ES/EN)
-- ✅ **Mobile-first responsive design**
-- ✅ **Modern UI/UX** with Tailwind CSS
+- **Homepage** with welcome message and service times
+- **About page** (mission, history, leadership, values)
+- **Ministries page** (Youth, Women's, Men's, Children, Music, Outreach)
+- **Events & Announcements page** with upcoming events
+- **Contact page** with contact form and information
+- **Online Giving page** with donation form
+- **Responsive navigation** with language toggle (ES/EN)
+- **Mobile-first responsive design**
+- **Modern UI/UX** with Tailwind CSS
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 LCDA-website/
@@ -89,7 +89,7 @@ LCDA-website/
 
 ---
 
-## 🎨 Design Features
+## Design Features
 
 - **Color Scheme:** Primary blues with secondary grays
 - **Typography:** Inter font family for modern readability
@@ -99,7 +99,7 @@ LCDA-website/
 
 ---
 
-## 🚧 Next Steps (Phase 2)
+## Next Steps (Phase 2)
 
 - [ ] **Internationalization:** Implement `next-intl` for full bilingual support
 - [ ] **CMS Integration:** Add Sanity or Contentful for content management
@@ -110,7 +110,7 @@ LCDA-website/
 
 ---
 
-## 📱 Pages Overview
+## Pages Overview
 
 1. **Homepage** (`/`) - Welcome, service times, quick links
 2. **About** (`/about`) - Mission, vision, values, history, leadership
@@ -121,7 +121,7 @@ LCDA-website/
 
 ---
 
-## 🎯 Development Commands
+## Development Commands
 
 ```bash
 npm run dev      # Start development server
@@ -132,7 +132,7 @@ npm run lint     # Run ESLint
 
 ---
 
-## 🌐 Deployment
+## Deployment
 
 The website is ready for deployment to:
 - **Vercel** (recommended for Next.js)
@@ -142,7 +142,7 @@ The website is ready for deployment to:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -152,13 +152,8 @@ The website is ready for deployment to:
 
 ---
 
-## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Built with Next.js and Tailwind CSS
 - Designed for La Casa del Alfarero church community
