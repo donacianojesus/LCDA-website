@@ -5,10 +5,10 @@ export default function Ministries() {
       <section className="bg-gradient-to-br from-primary-700 to-primary-900 text-white">
         <div className="section-padding text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            Nuestros Ministerios
+            Our Ministries
           </h1>
           <p className="text-xl md:text-2xl max-w-3xl mx-auto opacity-90">
-            Descubre cómo puedes servir y crecer en nuestra iglesia
+            Discover how you can serve and grow in our church
           </p>
         </div>
       </section>
@@ -21,16 +21,23 @@ export default function Ministries() {
             <div className="card text-center hover:shadow-lg transition-shadow duration-200">
               <div className="text-6xl mb-4">👨‍👩‍👧‍👦</div>
               <h3 className="text-2xl font-bold text-primary-600 mb-4">
-                Ministerio de Jóvenes
+                Youth Ministry
               </h3>
               <p className="text-gray-600 mb-6">
-                Un espacio dinámico donde los jóvenes pueden crecer en su fe, 
-                desarrollar amistades cristianas y divertirse de manera sana.
+                A dynamic space where young people can grow in their faith, 
+                develop Christian friendships and have fun in a healthy way.
               </p>
-              <div className="space-y-2 text-sm text-gray-500">
-                <p><strong>Reuniones:</strong> Viernes 7:00 PM</p>
-                <p><strong>Edades:</strong> 13-25 años</p>
-                <p><strong>Actividades:</strong> Estudios bíblicos, eventos sociales, retiros</p>
+              <div className="space-y-2 text-sm text-gray-500 mb-4">
+                <p><strong>Ages:</strong> 13-25 years</p>
+                <p><strong>Activities:</strong> Bible studies, social events, retreats</p>
+              </div>
+              <div className="flex justify-center space-x-3">
+                <a href="#" className="text-blue-600 hover:text-blue-800 transition-colors">
+                  <span className="text-lg">📘</span>
+                </a>
+                <a href="#" className="text-pink-600 hover:text-pink-800 transition-colors">
+                  <span className="text-lg">📷</span>
+                </a>
               </div>
             </div>
 
@@ -38,15 +45,22 @@ export default function Ministries() {
             <div className="card text-center hover:shadow-lg transition-shadow duration-200">
               <div className="text-6xl mb-4">👩‍👩‍👧‍👧</div>
               <h3 className="text-2xl font-bold text-primary-600 mb-4">
-                Ministerio de Mujeres
+                Women's Ministry
               </h3>
               <p className="text-gray-600 mb-6">
-                Un ministerio que empodera a las mujeres para crecer espiritualmente, 
-                desarrollar relaciones significativas y servir a la comunidad.
+                A ministry that empowers women to grow spiritually, 
+                develop meaningful relationships and serve the community.
               </p>
-              <div className="space-y-2 text-sm text-gray-500">
-                <p><strong>Reuniones:</strong> Sábados 10:00 AM</p>
-                <p><strong>Actividades:</strong> Estudios bíblicos, eventos especiales, servicio comunitario</p>
+              <div className="space-y-2 text-sm text-gray-500 mb-4">
+                <p><strong>Activities:</strong> Bible studies, special events, community service</p>
+              </div>
+              <div className="flex justify-center space-x-3">
+                <a href="#" className="text-blue-600 hover:text-blue-800 transition-colors">
+                  <span className="text-lg">📘</span>
+                </a>
+                <a href="#" className="text-pink-600 hover:text-pink-800 transition-colors">
+                  <span className="text-lg">📷</span>
+                </a>
               </div>
             </div>
 
@@ -54,15 +68,22 @@ export default function Ministries() {
             <div className="card text-center hover:shadow-lg transition-shadow duration-200">
               <div className="text-6xl mb-4">👨‍👨‍👦‍👦</div>
               <h3 className="text-2xl font-bold text-primary-600 mb-4">
-                Ministerio de Hombres
+                Men's Ministry
               </h3>
               <p className="text-gray-600 mb-6">
-                Un espacio donde los hombres pueden fortalecer su fe, 
-                desarrollar liderazgo y construir amistades auténticas.
+                A space where men can strengthen their faith, 
+                develop leadership and build authentic friendships.
               </p>
-              <div className="space-y-2 text-sm text-gray-500">
-                <p><strong>Reuniones:</strong> Sábados 8:00 AM</p>
-                <p><strong>Actividades:</strong> Desayunos, estudios bíblicos, proyectos de servicio</p>
+              <div className="space-y-2 text-sm text-gray-500 mb-4">
+                <p><strong>Activities:</strong> Breakfasts, Bible studies, service projects</p>
+              </div>
+              <div className="flex justify-center space-x-3">
+                <a href="#" className="text-blue-600 hover:text-blue-800 transition-colors">
+                  <span className="text-lg">📘</span>
+                </a>
+                <a href="#" className="text-pink-600 hover:text-pink-800 transition-colors">
+                  <span className="text-lg">📷</span>
+                </a>
               </div>
             </div>
 
@@ -70,15 +91,23 @@ export default function Ministries() {
             <div className="card text-center hover:shadow-lg transition-shadow duration-200">
               <div className="text-6xl mb-4">👶</div>
               <h3 className="text-2xl font-bold text-primary-600 mb-4">
-                Ministerio de Niños
+                Children's Ministry
               </h3>
               <p className="text-gray-600 mb-6">
-                Un ministerio dedicado a enseñar a los niños sobre el amor de Dios 
-                de manera divertida y apropiada para su edad.
+                A ministry dedicated to teaching children about God's love 
+                in a fun and age-appropriate way.
               </p>
-              <div className="space-y-2 text-sm text-gray-500">
-                <p><strong>Edades:</strong> 0-12 años</p>
-                <p><strong>Actividades:</strong> Escuela dominical, eventos especiales, manualidades</p>
+              <div className="space-y-2 text-sm text-gray-500 mb-4">
+                <p><strong>Ages:</strong> 0-12 years</p>
+                <p><strong>Activities:</strong> Sunday school, special events, crafts</p>
+              </div>
+              <div className="flex justify-center space-x-3">
+                <a href="#" className="text-blue-600 hover:text-blue-800 transition-colors">
+                  <span className="text-lg">📘</span>
+                </a>
+                <a href="#" className="text-pink-600 hover:text-pink-800 transition-colors">
+                  <span className="text-lg">📷</span>
+                </a>
               </div>
             </div>
 
@@ -86,15 +115,22 @@ export default function Ministries() {
             <div className="card text-center hover:shadow-lg transition-shadow duration-200">
               <div className="text-6xl mb-4">🎵</div>
               <h3 className="text-2xl font-bold text-primary-600 mb-4">
-                Ministerio de Música
+                Music Ministry
               </h3>
               <p className="text-gray-600 mb-6">
-                Un ministerio que usa la música para adorar a Dios y 
-                crear una atmósfera de adoración en nuestros servicios.
+                A ministry that uses music to worship God and 
+                create an atmosphere of worship in our services.
               </p>
-              <div className="space-y-2 text-sm text-gray-500">
-                <p><strong>Reuniones:</strong> Jueves 7:00 PM</p>
-                <p><strong>Necesidades:</strong> Músicos, cantantes, técnicos de sonido</p>
+              <div className="space-y-2 text-sm text-gray-500 mb-4">
+                <p><strong>Needs:</strong> Musicians, singers, sound technicians</p>
+              </div>
+              <div className="flex justify-center space-x-3">
+                <a href="#" className="text-blue-600 hover:text-blue-800 transition-colors">
+                  <span className="text-lg">📘</span>
+                </a>
+                <a href="#" className="text-pink-600 hover:text-pink-800 transition-colors">
+                  <span className="text-lg">📷</span>
+                </a>
               </div>
             </div>
 
@@ -102,15 +138,22 @@ export default function Ministries() {
             <div className="card text-center hover:shadow-lg transition-shadow duration-200">
               <div className="text-6xl mb-4">🤝</div>
               <h3 className="text-2xl font-bold text-primary-600 mb-4">
-                Ministerio de Alcance
+                Outreach Ministry
               </h3>
               <p className="text-gray-600 mb-6">
-                Un ministerio que lleva el amor de Cristo a nuestra comunidad 
-                a través de servicio, evangelismo y compasión.
+                A ministry that brings Christ's love to our community 
+                through service, evangelism and compassion.
               </p>
-              <div className="space-y-2 text-sm text-gray-500">
-                <p><strong>Actividades:</strong> Visitas hospitalarias, distribución de alimentos, evangelismo</p>
-                <p><strong>Horarios:</strong> Varios días de la semana</p>
+              <div className="space-y-2 text-sm text-gray-500 mb-4">
+                <p><strong>Activities:</strong> Hospital visits, food distribution, evangelism</p>
+              </div>
+              <div className="flex justify-center space-x-3">
+                <a href="#" className="text-blue-600 hover:text-blue-800 transition-colors">
+                  <span className="text-lg">📘</span>
+                </a>
+                <a href="#" className="text-pink-600 hover:text-pink-800 transition-colors">
+                  <span className="text-lg">📷</span>
+                </a>
               </div>
             </div>
           </div>
@@ -121,33 +164,33 @@ export default function Ministries() {
       <section className="section-padding bg-gray-50">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-            ¿Cómo Puedes Participar?
+            How Can You Get Involved?
           </h2>
           <p className="text-lg text-gray-700 mb-8 max-w-3xl mx-auto">
-            Cada uno de nosotros tiene dones y talentos que podemos usar para servir a Dios y a otros. 
-            Te invitamos a descubrir dónde puedes hacer la diferencia.
+            Each of us has gifts and talents that we can use to serve God and others. 
+            We invite you to discover where you can make a difference.
           </p>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="card text-center">
               <h3 className="text-xl font-semibold text-primary-600 mb-3">
-                Descubre Tus Dones
+                Discover Your Gifts
               </h3>
               <p className="text-gray-600 mb-4">
-                Toma tiempo para reflexionar sobre tus pasiones y habilidades.
+                Take time to reflect on your passions and abilities.
               </p>
               <button className="btn-primary">
-                Evaluación de Dones
+                Gift Assessment
               </button>
             </div>
             <div className="card text-center">
               <h3 className="text-xl font-semibold text-primary-600 mb-3">
-                Habla con un Líder
+                Talk to a Leader
               </h3>
               <p className="text-gray-600 mb-4">
-                Conecta con los líderes de los ministerios que te interesan.
+                Connect with leaders of ministries that interest you.
               </p>
               <button className="btn-primary">
-                Contactar Líder
+                Contact Leader
               </button>
             </div>
           </div>
@@ -158,7 +201,7 @@ export default function Ministries() {
       <section className="section-padding bg-white">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12 text-center">
-            Líderes de Ministerios
+            Ministry Leaders
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="card text-center">
@@ -166,10 +209,10 @@ export default function Ministries() {
                 👨‍💼
               </div>
               <h3 className="text-lg font-semibold text-primary-600 mb-2">
-                Pastor de Jóvenes
+                Youth Pastor
               </h3>
               <p className="text-gray-600 text-sm">
-                Liderando el ministerio juvenil con pasión y creatividad.
+                Leading the youth ministry with passion and creativity.
               </p>
             </div>
             <div className="card text-center">
@@ -177,10 +220,10 @@ export default function Ministries() {
                 👩‍💼
               </div>
               <h3 className="text-lg font-semibold text-primary-600 mb-2">
-                Líder de Mujeres
+                Women's Leader
               </h3>
               <p className="text-gray-600 text-sm">
-                Guiando a las mujeres en su crecimiento espiritual.
+                Guiding women in their spiritual growth.
               </p>
             </div>
             <div className="card text-center">
@@ -188,10 +231,10 @@ export default function Ministries() {
                 🎵
               </div>
               <h3 className="text-lg font-semibold text-primary-600 mb-2">
-                Director de Música
+                Music Director
               </h3>
               <p className="text-gray-600 text-sm">
-                Coordinando la adoración musical de la iglesia.
+                Coordinating the church's musical worship.
               </p>
             </div>
           </div>

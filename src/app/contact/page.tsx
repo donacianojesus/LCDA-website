@@ -5,10 +5,10 @@ export default function Contact() {
       <section className="bg-gradient-to-br from-primary-700 to-primary-900 text-white">
         <div className="section-padding text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            Contáctanos
+            Contact Us
           </h1>
           <p className="text-xl md:text-2xl max-w-3xl mx-auto opacity-90">
-            Estamos aquí para servirte. ¡Ven y únete a nuestra familia!
+            We're here to serve you. Come and join our family!
           </p>
         </div>
       </section>
@@ -20,18 +20,18 @@ export default function Contact() {
             {/* Contact Details */}
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-8">
-                Información de Contacto
+                Contact Information
               </h2>
               
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
                   <div className="text-2xl">📍</div>
                   <div>
-                    <h3 className="font-semibold text-gray-900 mb-1">Dirección</h3>
+                    <h3 className="font-semibold text-gray-900 mb-1">Address</h3>
                     <p className="text-gray-600">
-                      123 Main Street<br />
-                      Scranton, PA 18503<br />
-                      Estados Unidos
+                      109 S Keyser Ave<br />
+                      Scranton, PA 18504<br />
+                      United States
                     </p>
                   </div>
                 </div>
@@ -39,8 +39,8 @@ export default function Contact() {
                 <div className="flex items-start space-x-4">
                   <div className="text-2xl">📞</div>
                   <div>
-                    <h3 className="font-semibold text-gray-900 mb-1">Teléfono</h3>
-                    <p className="text-gray-600">(570) XXX-XXXX</p>
+                    <h3 className="font-semibold text-gray-900 mb-1">Phone</h3>
+                    <p className="text-gray-600">(570) 604-2739</p>
                   </div>
                 </div>
 
@@ -48,17 +48,17 @@ export default function Contact() {
                   <div className="text-2xl">✉️</div>
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Email</h3>
-                    <p className="text-gray-600">info@lcdachurch.org</p>
+                    <p className="text-gray-600">lacasadelalfareroipul@gmail.com</p>
                   </div>
                 </div>
 
                 <div className="flex items-start space-x-4">
                   <div className="text-2xl">⏰</div>
                   <div>
-                    <h3 className="font-semibold text-gray-900 mb-1">Horarios de Oficina</h3>
+                    <h3 className="font-semibold text-gray-900 mb-1">Office Hours</h3>
                     <p className="text-gray-600">
-                      Lunes - Viernes: 9:00 AM - 5:00 PM<br />
-                      Sábado: 10:00 AM - 2:00 PM
+                      Monday - Friday: 9:00 AM - 5:00 PM<br />
+                      Saturday: 10:00 AM - 2:00 PM
                     </p>
                   </div>
                 </div>
@@ -68,14 +68,14 @@ export default function Contact() {
             {/* Contact Form */}
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-8">
-                Envíanos un Mensaje
+                Send Us a Message
               </h2>
               
               <form className="space-y-6">
                 <div className="grid md:grid-cols-2 gap-4">
                   <div>
                     <label htmlFor="firstName" className="block text-sm font-medium text-gray-700 mb-2">
-                      Nombre *
+                      First Name *
                     </label>
                     <input
                       type="text"
@@ -83,12 +83,12 @@ export default function Contact() {
                       name="firstName"
                       required
                       className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
-                      placeholder="Tu nombre"
+                      placeholder="Your first name"
                     />
                   </div>
                   <div>
                     <label htmlFor="lastName" className="block text-sm font-medium text-gray-700 mb-2">
-                      Apellido *
+                      Last Name *
                     </label>
                     <input
                       type="text"
@@ -96,7 +96,7 @@ export default function Contact() {
                       name="lastName"
                       required
                       className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
-                      placeholder="Tu apellido"
+                      placeholder="Your last name"
                     />
                   </div>
                 </div>
@@ -111,13 +111,13 @@ export default function Contact() {
                     name="email"
                     required
                     className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
-                    placeholder="tu@email.com"
+                    placeholder="your@email.com"
                   />
                 </div>
 
                 <div>
                   <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
-                    Teléfono
+                    Phone
                   </label>
                   <input
                     type="tel"
@@ -130,7 +130,7 @@ export default function Contact() {
 
                 <div>
                   <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
-                    Asunto *
+                    Subject *
                   </label>
                   <select
                     id="subject"
@@ -138,18 +138,18 @@ export default function Contact() {
                     required
                     className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                   >
-                    <option value="">Selecciona un asunto</option>
-                    <option value="general">Consulta General</option>
-                    <option value="prayer">Solicitud de Oración</option>
-                    <option value="visit">Información para Visitar</option>
-                    <option value="ministry">Información de Ministerios</option>
-                    <option value="other">Otro</option>
+                    <option value="">Select a subject</option>
+                    <option value="general">General Inquiry</option>
+                    <option value="prayer">Prayer Request</option>
+                    <option value="visit">Information for Visiting</option>
+                    <option value="ministry">Ministry Information</option>
+                    <option value="other">Other</option>
                   </select>
                 </div>
 
                 <div>
                   <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
-                    Mensaje *
+                    Message *
                   </label>
                   <textarea
                     id="message"
@@ -157,7 +157,7 @@ export default function Contact() {
                     rows={4}
                     required
                     className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
-                    placeholder="Escribe tu mensaje aquí..."
+                    placeholder="Write your message here..."
                   ></textarea>
                 </div>
 
@@ -165,7 +165,7 @@ export default function Contact() {
                   type="submit"
                   className="w-full btn-primary py-3 text-lg"
                 >
-                  Enviar Mensaje
+                  Send Message
                 </button>
               </form>
             </div>
@@ -177,14 +177,14 @@ export default function Contact() {
       <section className="section-padding bg-gray-50">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-            Ubicación
+            Location
           </h2>
           <div className="bg-gray-200 rounded-lg h-96 flex items-center justify-center">
             <div className="text-center text-gray-600">
               <div className="text-4xl mb-4">🗺️</div>
-              <p className="text-lg">Mapa de Google Maps se integrará aquí</p>
+              <p className="text-lg">Google Maps will be integrated here</p>
               <p className="text-sm mt-2">
-                Dirección: 123 Main Street, Scranton, PA 18503
+                Address: 109 S Keyser Ave, Scranton, PA 18504
               </p>
             </div>
           </div>

@@ -5,10 +5,10 @@ export default function Give() {
       <section className="bg-gradient-to-br from-primary-700 to-primary-900 text-white">
         <div className="section-padding text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            Ofrendas y Donaciones
+            Giving and Donations
           </h1>
           <p className="text-xl md:text-2xl max-w-3xl mx-auto opacity-90">
-            Apoya la misión de nuestra iglesia y el trabajo del Reino
+            Support our church's mission and the work of the Kingdom
           </p>
         </div>
       </section>
@@ -17,39 +17,39 @@ export default function Give() {
       <section className="section-padding bg-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
-            ¿Por Qué Dar?
+            Why Give?
           </h2>
           <p className="text-lg text-gray-700 mb-12 max-w-3xl mx-auto">
-            La Biblia nos enseña que dar es una parte fundamental de la adoración cristiana. 
-            Cuando damos, no solo apoyamos la obra de Dios, sino que también crecemos espiritualmente.
+            The Bible teaches us that giving is a fundamental part of Christian worship. 
+            When we give, we not only support God's work, but we also grow spiritually.
           </p>
           
           <div className="grid md:grid-cols-3 gap-8">
             <div className="card text-center">
               <div className="text-4xl mb-4">🙏</div>
               <h3 className="text-xl font-semibold text-primary-600 mb-3">
-                Adoración
+                Worship
               </h3>
               <p className="text-gray-600">
-                Dar es una forma de adorar a Dios y reconocer que todo lo que tenemos viene de Él.
+                Giving is a way to worship God and recognize that everything we have comes from Him.
               </p>
             </div>
             <div className="card text-center">
               <div className="text-4xl mb-4">🤝</div>
               <h3 className="text-xl font-semibold text-primary-600 mb-3">
-                Servicio
+                Service
               </h3>
               <p className="text-gray-600">
-                Nuestras ofrendas permiten que la iglesia sirva a la comunidad y cumpla su misión.
+                Our offerings enable the church to serve the community and fulfill its mission.
               </p>
             </div>
             <div className="card text-center">
               <div className="text-4xl mb-4">💝</div>
               <h3 className="text-xl font-semibold text-primary-600 mb-3">
-                Bendición
+                Blessing
               </h3>
               <p className="text-gray-600">
-                Dios promete bendecir a quienes dan generosamente y con alegría.
+                God promises to bless those who give generously and with joy.
               </p>
             </div>
           </div>
@@ -60,7 +60,7 @@ export default function Give() {
       <section className="section-padding bg-gray-50">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12 text-center">
-            Formas de Dar
+            Ways to Give
           </h2>
           
           <div className="grid md:grid-cols-2 gap-8">
@@ -69,20 +69,20 @@ export default function Give() {
               <div className="text-center mb-6">
                 <div className="text-6xl mb-4">💒</div>
                 <h3 className="text-2xl font-bold text-primary-600 mb-3">
-                  Ofrendas en Persona
+                  In-Person Giving
                 </h3>
               </div>
               <p className="text-gray-600 mb-6 text-center">
-                Puedes dar tu ofrenda durante nuestros servicios dominicales o 
-                en horarios de oficina.
+                You can give your offering during our Sunday services or 
+                during office hours.
               </p>
               <div className="space-y-3 text-sm text-gray-600">
                 <div className="flex items-center justify-between">
-                  <span>Domingo - Servicio Principal</span>
+                  <span>Sunday - Main Service</span>
                   <span className="font-semibold">11:00 AM</span>
                 </div>
                 <div className="flex items-center justify-between">
-                  <span>Oficina - Lunes a Viernes</span>
+                  <span>Office - Monday to Friday</span>
                   <span className="font-semibold">9:00 AM - 5:00 PM</span>
                 </div>
               </div>
@@ -93,24 +93,24 @@ export default function Give() {
               <div className="text-center mb-6">
                 <div className="text-6xl mb-4">💻</div>
                 <h3 className="text-2xl font-bold text-primary-600 mb-3">
-                  Ofrendas en Línea
+                  Online Giving
                 </h3>
               </div>
               <p className="text-gray-600 mb-6 text-center">
-                Da tu ofrenda de forma segura y conveniente desde cualquier lugar.
+                Give your offering securely and conveniently from anywhere.
               </p>
               <div className="space-y-3 text-sm text-gray-600">
                 <div className="flex items-center justify-between">
-                  <span>Tarjeta de Crédito/Débito</span>
-                  <span className="text-green-600">✓ Disponible</span>
+                  <span>Credit/Debit Card</span>
+                  <span className="text-green-600">✓ Available</span>
                 </div>
                 <div className="flex items-center justify-between">
-                  <span>Transferencia Bancaria</span>
-                  <span className="text-green-600">✓ Disponible</span>
+                  <span>Bank Transfer</span>
+                  <span className="text-green-600">✓ Available</span>
                 </div>
                 <div className="flex items-center justify-between">
                   <span>PayPal</span>
-                  <span className="text-blue-600">Próximamente</span>
+                  <span className="text-blue-600">Coming Soon</span>
                 </div>
               </div>
             </div>
@@ -122,13 +122,13 @@ export default function Give() {
       <section className="section-padding bg-white">
         <div className="max-w-2xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center">
-            Ofrenda en Línea
+            Online Giving
           </h2>
           
           <form className="space-y-6">
             <div>
               <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
-                Nombre Completo *
+                Full Name *
               </label>
               <input
                 type="text"
@@ -136,7 +136,7 @@ export default function Give() {
                 name="name"
                 required
                 className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
-                placeholder="Tu nombre completo"
+                placeholder="Your full name"
               />
             </div>
 
@@ -150,13 +150,13 @@ export default function Give() {
                 name="email"
                 required
                 className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
-                placeholder="tu@email.com"
+                placeholder="your@email.com"
               />
             </div>
 
             <div>
               <label htmlFor="amount" className="block text-sm font-medium text-gray-700 mb-2">
-                Cantidad *
+                Amount *
               </label>
               <div className="relative">
                 <span className="absolute left-3 top-2 text-gray-500">$</span>
@@ -175,33 +175,33 @@ export default function Give() {
 
             <div>
               <label htmlFor="category" className="block text-sm font-medium text-gray-700 mb-2">
-                Categoría de Ofrenda
+                Offering Category
               </label>
               <select
                 id="category"
                 name="category"
                 className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
               >
-                <option value="general">Ofrenda General</option>
-                <option value="missions">Misiones</option>
-                <option value="building">Fondo de Construcción</option>
-                <option value="youth">Ministerio de Jóvenes</option>
-                <option value="children">Ministerio de Niños</option>
-                <option value="outreach">Ministerio de Alcance</option>
-                <option value="other">Otro</option>
+                <option value="general">General Offering</option>
+                <option value="missions">Missions</option>
+                <option value="building">Building Fund</option>
+                <option value="youth">Youth Ministry</option>
+                <option value="children">Children's Ministry</option>
+                <option value="outreach">Outreach Ministry</option>
+                <option value="other">Other</option>
               </select>
             </div>
 
             <div>
               <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
-                Mensaje (Opcional)
+                Message (Optional)
               </label>
               <textarea
                 id="message"
                 name="message"
                 rows={3}
                 className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
-                placeholder="Un mensaje especial o intención de oración..."
+                placeholder="A special message or prayer intention..."
               ></textarea>
             </div>
 
@@ -209,12 +209,12 @@ export default function Give() {
               <div className="flex items-start space-x-3">
                 <div className="text-blue-600 text-xl">ℹ️</div>
                 <div className="text-sm text-blue-800">
-                  <p className="font-medium mb-1">Información Importante:</p>
+                  <p className="font-medium mb-1">Important Information:</p>
                   <ul className="space-y-1">
-                    <li>• Todas las donaciones son procesadas de forma segura</li>
-                    <li>• Recibirás un recibo por email</li>
-                    <li>• Las ofrendas son deducibles de impuestos</li>
-                    <li>• Puedes cancelar en cualquier momento</li>
+                    <li>• All donations are processed securely</li>
+                    <li>• You will receive a receipt by email</li>
+                    <li>• Offerings are tax deductible</li>
+                    <li>• You can cancel at any time</li>
                   </ul>
                 </div>
               </div>
@@ -224,7 +224,7 @@ export default function Give() {
               type="submit"
               className="w-full btn-primary py-3 text-lg"
             >
-              Proceder con la Ofrenda
+              Proceed with Offering
             </button>
           </form>
         </div>
@@ -234,34 +234,34 @@ export default function Give() {
       <section className="section-padding bg-gray-50">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center">
-            Principios Bíblicos sobre Dar
+            Biblical Principles on Giving
           </h2>
           
           <div className="grid md:grid-cols-2 gap-8">
             <div className="card">
               <h3 className="text-xl font-semibold text-primary-600 mb-4">
-                Malaquías 3:10
+                Malachi 3:10
               </h3>
               <blockquote className="text-gray-700 italic mb-4">
-                "Traed todos los diezmos al alfolí y haya alimento en mi casa; 
-                y probadme ahora en esto, dice Jehová de los ejércitos, 
-                si no os abriré las ventanas de los cielos..."
+                "Bring the whole tithe into the storehouse, that there may be food in my house. 
+                Test me in this," says the Lord Almighty, "and see if I will not throw open 
+                the floodgates of heaven..."
               </blockquote>
               <p className="text-gray-600 text-sm">
-                Dios promete bendecir abundantemente a quienes son fieles en sus diezmos.
+                God promises to abundantly bless those who are faithful in their tithes.
               </p>
             </div>
 
             <div className="card">
               <h3 className="text-xl font-semibold text-primary-600 mb-4">
-                2 Corintios 9:7
+                2 Corinthians 9:7
               </h3>
               <blockquote className="text-gray-700 italic mb-4">
-                "Cada uno dé como propuso en su corazón: no con tristeza, 
-                ni por necesidad, porque Dios ama al dador alegre."
+                "Each of you must give as you have made up your mind, not reluctantly 
+                or under compulsion, for God loves a cheerful giver."
               </blockquote>
               <p className="text-gray-600 text-sm">
-                Dios quiere que demos con alegría y de corazón, no por obligación.
+                God wants us to give with joy and from the heart, not out of obligation.
               </p>
             </div>
           </div>
@@ -272,23 +272,23 @@ export default function Give() {
       <section className="section-padding bg-primary-600 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            ¿Tienes Preguntas?
+            Have Questions?
           </h2>
           <p className="text-xl mb-8 opacity-90">
-            Si tienes preguntas sobre las ofrendas o necesitas ayuda, 
-            no dudes en contactarnos.
+            If you have questions about giving or need help, 
+            don't hesitate to contact us.
           </p>
           
           <div className="grid md:grid-cols-2 gap-6 max-w-2xl mx-auto">
             <div className="bg-white bg-opacity-10 rounded-lg p-6">
               <div className="text-2xl mb-2">📞</div>
-              <h3 className="text-lg font-semibold mb-2">Llámanos</h3>
+              <h3 className="text-lg font-semibold mb-2">Call Us</h3>
               <p className="text-sm opacity-90">(570) XXX-XXXX</p>
             </div>
             <div className="bg-white bg-opacity-10 rounded-lg p-6">
               <div className="text-2xl mb-2">✉️</div>
-              <h3 className="text-lg font-semibold mb-2">Envíanos un Email</h3>
-              <p className="text-sm opacity-90">finanzas@lcdachurch.org</p>
+              <h3 className="text-lg font-semibold mb-2">Send Us an Email</h3>
+              <p className="text-sm opacity-90">lacasadelalfareroipul@gmail.com</p>
             </div>
           </div>
         </div>

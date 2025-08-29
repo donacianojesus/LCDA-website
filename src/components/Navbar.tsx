@@ -5,19 +5,14 @@ import Link from 'next/link'
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const [language, setLanguage] = useState('es') // Default to Spanish
-
-  const toggleLanguage = () => {
-    setLanguage(language === 'es' ? 'en' : 'es')
-  }
 
   const navItems = [
-    { href: '/', label: language === 'es' ? 'Inicio' : 'Home' },
-    { href: '/about', label: language === 'es' ? 'Acerca de' : 'About' },
-    { href: '/ministries', label: language === 'es' ? 'Ministerios' : 'Ministries' },
-    { href: '/events', label: language === 'es' ? 'Eventos' : 'Events' },
-    { href: '/give', label: language === 'es' ? 'Ofrendas' : 'Give' },
-    { href: '/contact', label: language === 'es' ? 'Contacto' : 'Contact' },
+    { href: '/', label: 'Home' },
+    { href: '/about', label: 'About' },
+    { href: '/ministries', label: 'Ministries' },
+    { href: '/events', label: 'Events' },
+    { href: '/give', label: 'Give' },
+    { href: '/contact', label: 'Contact' },
   ]
 
   return (
@@ -46,15 +41,8 @@ export default function Navbar() {
             </div>
           </div>
 
-          {/* Language Toggle & Mobile Menu Button */}
+          {/* Mobile Menu Button */}
           <div className="flex items-center space-x-4">
-            <button
-              onClick={toggleLanguage}
-              className="bg-primary-100 hover:bg-primary-200 text-primary-700 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200"
-            >
-              {language === 'es' ? 'EN' : 'ES'}
-            </button>
-            
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="md:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-primary-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary-500"
