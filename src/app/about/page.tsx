@@ -106,12 +106,12 @@ export default function About() {
 
       {/* Leadership Section */}
       <section className="section-padding bg-white">
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12 text-center">
             Our Leadership
           </h2>
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="card text-center">
+          <div className="flex justify-center">
+            <div className="card text-center max-w-md">
               <div className="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-4 flex items-center justify-center text-4xl">
                 👨‍💼
               </div>
@@ -123,17 +123,6 @@ export default function About() {
               </p>
               <p className="text-gray-600 text-sm">
                 Leading our congregation with wisdom and compassion.
-              </p>
-            </div>
-            <div className="card text-center">
-              <div className="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-4 flex items-center justify-center text-4xl">
-                👥
-              </div>
-              <h3 className="text-xl font-semibold text-primary-600 mb-2">
-                Elder Board
-              </h3>
-              <p className="text-gray-600">
-                Providing spiritual direction and wisdom to the church.
               </p>
             </div>
           </div>

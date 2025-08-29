@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Footer() {
   return (
@@ -13,10 +14,18 @@ export default function Footer() {
             <p className="text-gray-300 mb-4 max-w-md">
               A community of faith serving God and our community in Scranton, Pennsylvania.
             </p>
-            <div className="space-y-2 text-gray-300">
+            <div className="space-y-2 text-gray-300 mb-4">
               <p>📍 Scranton, PA</p>
               <p>📞 (570) 604-2739</p>
               <p>✉️ lacasadelalfareroipul@gmail.com</p>
+            </div>
+            <div className="flex space-x-3">
+              <a href="https://www.instagram.com/ipul_scranton_lcda/" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
+                <Image src="/images/Instagram_icon.png" alt="Instagram" width={24} height={24} />
+              </a>
+              <a href="#" className="text-blue-400 hover:text-blue-300 transition-colors">
+                <span className="text-xl">📘</span>
+              </a>
             </div>
           </div>
 
