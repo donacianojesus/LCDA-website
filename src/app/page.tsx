@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import LiveStream from '@/components/LiveStream'
 
 export default function Home() {
   return (
@@ -25,6 +26,12 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Live Stream Section */}
+      <LiveStream 
+        youtubeUrl="https://www.youtube.com/@IpulScranton-LaCasadelAlfarero/live"
+        facebookUrl="https://www.facebook.com/YOUR_PAGE/videos/YOUR_VIDEO_ID"
+      />
 
       {/* Picture Slideshow Section */}
       <section className="section-padding bg-gray-50">
