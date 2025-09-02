@@ -47,15 +47,17 @@ The website will be available at [http://localhost:3000](http://localhost:3000)
 
 ## Features (Implemented)
 
-- **Homepage** with welcome message and service times
+- **Homepage** with welcome message, service times, and live streaming
 - **About page** (mission, history, leadership, values)
 - **Ministries page** (Youth, Women's, Men's, Children, Music, Outreach)
 - **Events & Announcements page** with upcoming events
 - **Contact page** with contact form and information
 - **Online Giving page** with donation form
+- **Live Streaming Integration** with YouTube and Facebook support
 - **Responsive navigation** with language toggle (ES/EN)
 - **Mobile-first responsive design**
 - **Modern UI/UX** with Tailwind CSS
+- **Popup video players** for live services
 
 ---
 
@@ -75,7 +77,8 @@ LCDA-website/
 │   │   └── page.tsx       # Homepage
 │   ├── components/        # Reusable UI components
 │   │   ├── Navbar.tsx     # Navigation component
-│   │   └── Footer.tsx     # Footer component
+│   │   ├── Footer.tsx     # Footer component
+│   │   └── LiveStream.tsx # Live streaming component
 │   ├── styles/            # CSS and Tailwind
 │   │   └── globals.css    # Global styles
 │   └── lib/               # Utilities & helpers
@@ -91,12 +94,13 @@ LCDA-website/
 
 ## Design Features
 
-- **Color Scheme:** Primary blues with secondary grays
+- **Color Scheme:** Primary blues with secondary grays and red accents for live streaming
 - **Typography:** Inter font family for modern readability
 - **Components:** Reusable card, button, and section components
 - **Responsive:** Mobile-first design with breakpoint-based layouts
 - **Accessibility:** Semantic HTML and proper contrast ratios
-
+- **Live Streaming:** Professional popup modal with responsive video players (Only YouTube working)
+ 
 ---
 
 ## Next Steps (Phase 2)
@@ -107,17 +111,31 @@ LCDA-website/
 - [ ] **Google Maps:** Add real location and directions
 - [ ] **Contact Form:** Backend integration for form submissions
 - [ ] **SEO Optimization:** Meta tags, sitemap, and analytics
+- [ ] **Live Stream Scheduling:** Add service time integration with live streaming
+- [ ] **Video Archive:** Store and display past service recordings
 
 ---
 
 ## Pages Overview
 
-1. **Homepage** (`/`) - Welcome, service times, quick links
+1. **Homepage** (`/`) - Welcome, service times, live streaming, quick links
 2. **About** (`/about`) - Mission, vision, values, history, leadership
 3. **Ministries** (`/ministries`) - All church ministries and involvement
 4. **Events** (`/events`) - Upcoming events and announcements
 5. **Give** (`/give`) - Online giving and donation information
 6. **Contact** (`/contact`) - Contact form and church information
+
+## Live Streaming Features
+
+The website includes a comprehensive live streaming solution:
+
+- **YouTube Integration**: Direct links to live streams with popup players
+- **Facebook Integration**: Embedded Facebook live video support (In Progress)
+- **Responsive Design**: Works seamlessly on desktop and mobile devices
+- **Professional UI**: Clean, modern interface with red gradient styling
+- **Smart URL Handling**: Automatically detects and handles different video URL formats
+- **Modal Players**: Full-screen popup experience for optimal viewing
+- **Auto-play Support**: Videos start automatically when opened
 
 ---
 
@@ -161,5 +179,5 @@ The website is ready for deployment to:
 
 ---
 
-**Last Updated:** August 2025  
-**Status:** MVP Complete - Ready for Production Deployment
+**Last Updated:** Setempber 2025  
+**Status:** MVP in progress with Live Streaming - Not Ready for Production Deployment
